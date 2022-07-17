@@ -1,0 +1,24 @@
+{
+  "name": "clipshare",
+  "version": "1.0.0",
+  "description": "clipboard sharing with another platform",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon --ignore setting.json --exec babel-node server.js ",
+    "start" : "babel-node server.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

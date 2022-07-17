@@ -1,0 +1,14 @@
+extends base
+
+block content
+    form(method="POST")
+        h1 보내기
+        label(for="clipboard") 데이터 보내기
+        if (store)
+            input(id="clipboard" name="clipboard" type="text" placeholder="데이터 전송 완료")
+        else 
+            input(id="clipboard" name="clipboard" type="text" placeholder="PC → Client")
+        label(for="setpw") 패스워드
+        input(id="setpw" name="setpw" type="password" placeholder="id" value=`${securedId}` required)         
+        input(type="submit" value="Send")  
+        small 클라이언트에서 위 패스워드를 입력하세요
