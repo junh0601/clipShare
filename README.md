@@ -28,12 +28,15 @@
     npm i 
     ```
 
-4. 서버 실행
-    ```
-    npm run start
-    ``` 
+4. 서버 실행 방법 2가지 
+   * 터미널에서 실행하기
+        ```
+        npm run start
+        ``` 
+    * 윈도우환경에서 실행하기
+        - run_server.bat파일 실행
 5. 웹 UI 열기
-    * 브라우저에 http://localhost:8080 입력
+    - http://localhost:8080
 
 
 
